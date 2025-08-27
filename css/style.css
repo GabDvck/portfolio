@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+/*--------------------header--------------------*/
+
+header{
+    background: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    height: 5em;
+}
+
+header nav{
+    align-self: center;
+}
+
+header nav ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+header li{
+    list-style-type: none;
+    align-self: right;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1{
+    margin-left: 1em;
+}
+
+/*--------------------accueil--------------------*/
+
+#accueil{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 7em;
+}
+
+.cercle-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;     /* Évite la déformation de l'image */
+    border: 3px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    display: block;
+    justify-self: end;
+    margin-right: 2em; 
+}
+
+#accueil section{
+    text-align: center;
+    justify-self: start;
+    align-self: center;
+    padding-left: 2em;
+}
+
+.lien-cv{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 0.5em;
+    border-radius: 10px;
+}
+
+.lien-cv:hover{
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/*--------------------à propos--------------------*/
+
+/*#apropos{
+    background-color: #F0F0F2;
+    margin: 5em 15em;
+    padding: 2em;
+    text-align: justify;
+}*/
+
+#apropos {
+    max-width: 800px;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #F0F0F2;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 5em auto;
+}
+
+#apropos h2{
+    text-align: center;
+}
+
+#apropos strong {
+    color: #007BFF;
+    font-weight: 600;
+}
