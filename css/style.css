@@ -2,6 +2,15 @@ body{
     margin: 0;
 }
 
+h2{
+    text-align: center;
+}
+
+strong {
+    color: #007BFF;
+    font-weight: 600;
+}
+
 /*--------------------header--------------------*/
 
 header{
@@ -76,13 +85,6 @@ header h1{
 
 /*--------------------à propos--------------------*/
 
-/*#apropos{
-    background-color: #F0F0F2;
-    margin: 5em 15em;
-    padding: 2em;
-    text-align: justify;
-}*/
-
 #apropos {
     max-width: 800px;
     padding: 40px 20px;
@@ -95,11 +97,57 @@ header h1{
     margin: 5em auto;
 }
 
-#apropos h2{
+/*--------------------Projets--------------------*/
+.grille-projets section{
     text-align: center;
+    border: solid #F0F0F2;
+    margin: auto 3em;
+    padding: 1em;
 }
 
-#apropos strong {
-    color: #007BFF;
-    font-weight: 600;
+.screens img{
+    margin-right: 1em;
+    border: solid black;
+}
+
+.screen-pc{
+    max-width: 35%;
+}
+
+.screen-mobile{
+    max-width: 10%
+}
+
+#projets a{
+    text-decoration: none;
+    color: black;
+    background-color: #F0F0F2;
+    border-radius: 8px;
+    padding: 0.5em;
+}
+
+#projets a:hover{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------Parcours--------------------*/
+
+#parcours section{
+    text-align: center;
+    max-width: 800px;
+    padding: 10px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #F0F0F2;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#parcours div{
+    border: 1px solid black;
+    margin-bottom: 0.7em;
+    border-radius: 8px;
 }
