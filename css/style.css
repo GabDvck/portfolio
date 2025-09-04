@@ -98,6 +98,7 @@ header h1{
 }
 
 /*--------------------Projets--------------------*/
+
 .grille-projets section{
     text-align: center;
     border: solid #F0F0F2;
@@ -150,4 +151,42 @@ header h1{
     border: 1px solid black;
     margin-bottom: 0.7em;
     border-radius: 8px;
+}
+
+/*--------------------Contact--------------------*/
+
+#contact section{
+    text-align: center;
+    border: solid #F0F0F2;
+    margin: auto 3em;
+    padding: 1em;
+}
+
+
+#contact div{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+#contact{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.aLinkedin{
+    justify-self: end;
+    margin-right: 5em;
+}
+
+.linkedin{
+    max-width: 2em;
+}
+
+.aGithub{
+    justify-self: start;
+}
+
+.github{
+    max-width: 1.5em;
 }
