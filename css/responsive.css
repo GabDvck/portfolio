@@ -1,0 +1,22 @@
+@media (max-width: 900px){
+    nav{
+        display: none;
+    }
+}
+
+@media (max-width: 800px){
+    #accueil{
+        display: block;
+        margin-top: 1em;
+    }
+
+    .cercle-image{
+        margin: auto;
+    }
+
+    #accueil section{
+        text-align: center;
+        justify-self: center;
+        padding-left: 0;
+    }
+}
