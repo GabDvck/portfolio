@@ -98,27 +98,6 @@ header h1{
     margin: 5em auto;
 }
 
-/*--------------------Services--------------------*/
-
-#services {
-    text-align: center;
-    max-width: 70%;
-    padding: 40px 20px;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    line-height: 1.6;
-    background-color: #F0F0F2;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 5em auto;
-}
-
-#services section{
-    border: 1px solid black;
-    margin-bottom: 0.7em;
-    border-radius: 8px;
-}
-
 /*--------------------Projets--------------------*/
 
 .grille-projets section{
